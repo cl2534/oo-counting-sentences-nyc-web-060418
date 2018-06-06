@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    p self.collect {|i| 
+    self.collect {|i| 
     i != "!" 
     }
   end 
