@@ -15,8 +15,7 @@ class String
   end
 
   def count_sentences
-    p self.reject |i|
-      i == "!" || i == "." || i == ","
-      }
-    end 
+    p self.collect {|i| 
+    i != "!" 
+    }
 end
