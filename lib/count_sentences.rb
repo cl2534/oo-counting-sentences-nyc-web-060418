@@ -18,4 +18,5 @@ class String
     p self.collect {|i| 
     i != "!" 
     }
+  end 
 end
