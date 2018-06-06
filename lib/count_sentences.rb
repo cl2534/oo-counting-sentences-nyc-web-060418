@@ -19,7 +19,7 @@ class String
     #   i == "!" || i == "." || i == ","
     #   }.count 
     removePunc = self.gsub(/[!?]/,'. ')
-    removePunc.count
+    p removePunc.count
   
   end
 end
