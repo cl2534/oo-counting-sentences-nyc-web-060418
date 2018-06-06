@@ -15,8 +15,6 @@ class String
   end
 
   def count_sentences
-    self.collect {|i| 
-    i != "!" 
-    }
+    self.gsub("^a-zA-Z")
   end 
 end
