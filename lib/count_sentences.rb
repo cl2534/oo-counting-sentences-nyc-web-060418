@@ -19,5 +19,4 @@ class String
       i == "!" || i == "." || i == ","
       }
     end 
-  end 
 end
