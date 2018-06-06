@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
-    p self.split
+    self.split each do |i|
+      if i.
   end
 end
