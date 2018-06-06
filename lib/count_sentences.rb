@@ -18,7 +18,6 @@ class String
     p self.reject |i|
       i == "!" || i == "." || i == ","
       }
-    
-  
-  end
+    end 
+  end 
 end
