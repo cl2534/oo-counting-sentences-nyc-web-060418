@@ -15,7 +15,6 @@ class String
   end
 
   def count_sentences
-    p self.split(%r{.*})
-    p self.gsub(/[^a-zA-Z,.]/, " ").split(". ")
+    p self.split(%r{.!})
   end 
 end
