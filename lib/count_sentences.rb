@@ -18,8 +18,7 @@ class String
     # self.split.delete_if {|i|
     #   i == "!" || i == "." || i == ","
     #   }.count 
-    removePunc = self.gsub(/[[:punct:]]/, '')
-    removePunc.each do |i| 
-      if i[0] 
+    p removePunc = self.gsub(/[[:punct:]]/,'. ')
+  
   end
 end
