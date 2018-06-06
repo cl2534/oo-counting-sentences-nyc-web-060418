@@ -18,7 +18,7 @@ class String
     # self.split.delete_if {|i|
     #   i == "!" || i == "." || i == ","
     #   }.count 
-    p self.gsub(/[!?]/,'. ').count
+    p self.gsub(/[!?]/,'. ')
     
   
   end
