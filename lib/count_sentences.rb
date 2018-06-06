@@ -18,6 +18,5 @@ class String
     self.split.delete_if {|i|
       i == "!" || i == "." || i == ","
       }
-    end 
   end
 end
