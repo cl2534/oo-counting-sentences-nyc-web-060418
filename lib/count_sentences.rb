@@ -17,6 +17,6 @@ class String
   def count_sentences
     self.split.delete_if {|i|
       i == "!" || i == "." || i == ","
-      }
+      }.count 
   end
 end
