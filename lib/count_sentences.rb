@@ -18,6 +18,6 @@ class String
     # self.split.delete_if {|i|
     #   i == "!" || i == "." || i == ","
     #   }.count 
-    p self.gsub(/[^a-z ]/, '').split
+    p self.gsub(/[W]/, '').split
   end
 end
